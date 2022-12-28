@@ -1,0 +1,166 @@
+
+
+
+/* just messing with some features in body*/
+body {
+    background-size: cover;
+    background-color: lightgrey;   
+}
+/* this is for our main div, the grey box */
+.main-div{
+background-color: grey;
+height:700px;
+margin-right: auto;
+ margin-left: auto; 
+ width: 700px; 
+ margin-top:80px;
+ opacity:0.8;
+border-radius: 25px;
+overflow: auto;
+
+}
+
+/* this is for the left div, the left box which contains data */
+.left{
+box-shadow: inset 0 0 0 200px rgba(255,255,255,0.3);
+opacity:0.8;
+
+width:350px;
+height:400px;
+border-radius: 15px;
+margin-top:150px;
+margin-left:50px;
+display:inline-block;
+overflow: auto;
+
+background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
+
+/* this is for the box in the right, where you can search userssss */
+.right{
+
+background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+width:220px;
+height:400px;
+border-radius: 15px;
+margin-top:150px;
+margin-left:20px;
+display:inline-block;
+overflow: auto;
+opacity:0.8;
+}
+
+
+/* the search box , input type*/
+.person-id{
+margin-top:80px;
+margin-left:35px;
+
+}
+
+/* clearly our button */
+.button-style{
+margin-top:30px;
+margin-left:35px;
+width:150px;
+font-family: "Lucida Grande", Geneva, Verdana, Arial, Helvetica, sans-serif;
+border: 1px solid transparent;
+
+height:25px;
+border-radius: 10px;
+
+}
+
+
+.button-style:hover{
+opacity:0.5;
+}
+
+
+/* where the avatar appears*/
+.picture{
+
+margin-top:50px;
+margin-left:20px;
+border-radius: 15px;
+display:inline-block;
+vertical-align:top;
+}
+
+/* name of the user in the left box*/
+.name2{
+
+margin-top:10px;
+}
+/* location of the user in the left box*/
+.loc{
+
+margin-top:2px;
+
+}
+
+/*blog in the left box*/
+.blog{
+margin-top:2px;
+
+}
+/*this div includes name, loc and blog*/
+.con{
+margin-top:50px;
+margin-left:22px;
+display:inline-block;
+vertical-align:top;
+overflow: auto;
+
+
+}
+/*bio in the left box*/
+.bio{
+margin-top:90px;
+margin-left:10px;
+width:160px;
+
+}
+/* input type css */
+.person-id{
+height:20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
